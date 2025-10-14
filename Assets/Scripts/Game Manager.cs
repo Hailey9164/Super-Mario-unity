@@ -4,12 +4,12 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     // Static instance of the Game Manager,
-// can be access from anywhere
-public static GameManager instance = null;
+    // can be access from anywhere
+    public static GameManager instance = null;
     // Player score
     public int score = 0;
     // High score
-    public int highScore = 0;
+    public static int highScore = 0;
 
     // Called when the object is initialized
     void Awake()
