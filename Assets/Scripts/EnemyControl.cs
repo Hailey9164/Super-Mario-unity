@@ -37,7 +37,7 @@ public class EnemyControl : MonoBehaviour
             currentPoint = pointB.transform;
         }
     }
-
+    
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(pointA.transform.position, 0.5f);
